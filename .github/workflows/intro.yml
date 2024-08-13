@@ -56,7 +56,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           reactions: 'heart'
           body: |
-            👋🏽 @${{ env.USER }} 
+            👋🏽 Hi there @${{ env.USER }} 
 
             1. [Go to your profile and accept the invitation to join the wadwc org](https://github.com/orgs/ActionAgents/invitation)
             > [!NOTE]
@@ -68,11 +68,11 @@ jobs:
             <img width="551" alt="image" src="https://github.com/ActionAgents/intro/assets/10250297/66d84f20-9f80-496b-aacd-3891b81d1fb2" href="https://github.com/orgs/ActionAgents/invitation"><br>
             <img width="288" alt="image" href="https://github.com/orgs/ActionAgents/invitation" src="https://github.com/ActionAgents/intro/assets/10250297/7383d2d3-06fa-474b-8ef9-3eae269b2f84">
 
-            2. [Create a new repository in ActionAgents org](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo&description=Agents%20want%20to%20rule%20the%20world)
+            2. [Create a new repository in ActionAgents org](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo)
 
-            [![button](https://dabuttonfactory.com/button.png?t=ClickMe&f=Roboto-Bold&ts=26&tc=fff&tshs=1&tshc=000&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo&description=Agents%20want%20to%20rule%20the%20world)
+            [![button](https://dabuttonfactory.com/button.png?t=ClickMe&f=Roboto-Bold&ts=26&tc=fff&tshs=1&tshc=000&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo)
             
             # See screenshot below and name the repository with your name
-            [![scteenshot](https://github.com/user-attachments/assets/d546910c-df12-4982-9f9a-4a8ba783a62f)](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo&description=Agents%20want%20to%20rule%20the%20world)
+            [![scteenshot](https://github.com/user-attachments/assets/d546910c-df12-4982-9f9a-4a8ba783a62f)](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo)
 
             3. Next Step will be in the [new repository you just created](https://github.com/ActionAgents/${{ env.USER }}-demo).
