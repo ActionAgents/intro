@@ -76,3 +76,9 @@ jobs:
             [![scteenshot](https://github.com/user-attachments/assets/d546910c-df12-4982-9f9a-4a8ba783a62f)](${{ secrets.TEMPLATE }}&name=${{ env.USER }}-demo)
 
             3. Next Step will be in the [new repository you just created](https://github.com/ActionAgents/${{ env.USER }}-demo).
+
+            4. [Create a PAT](https://github.com/settings/personal-access-tokens/new) with no permissions and add it as a secret named KEY
+
+            [![image](https://github.com/user-attachments/assets/ef8f5f79-53b8-4205-8b5c-3b924e75c0c5)](https://github.com/settings/personal-access-tokens/new)
+
+            5. [Create a secret called KEY with the PAT from Step 4.](https://github.com/ActionAgents/intro/settings/secrets/actions)
