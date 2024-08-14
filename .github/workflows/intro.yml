@@ -42,7 +42,7 @@ jobs:
               "repo": {
                 "name": "${{ github.repository }}",
                 "sender": "${{ github.actor }}",
-                "org": "${GITHUB_REPOSITORY_OWNER}",
+                "org": "${{ github.repository_owner }}",
                 "owner": "${{ github.event.issue.user.login }}",
                 "title": "${{ github.event.issue.title }}",
                 "body": "${{ env.BODY }}"
